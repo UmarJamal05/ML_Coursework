@@ -1,11 +1,26 @@
-# Machine Learning Coursework
+# **Machine Learning Coursework**
 
-This project is to predict if the client will subscribe a term deposit based on bank marketing dataset.
-The dataset used here was "bank-full.csv" and it was found in UCI Machine Learning repository.
-Here is the link - https://archive.ics.uci.edu/dataset/222/bank%2Bmarketing.
+This project aims to predict whether a client will subscribe to a term deposit based on the **Bank Marketing Dataset**.
 
-In this project, the following were performed:
-Corpus Preparation(Data Cleaning and Data Transformation).
-Training the models and getting the classification reports.
-Comparing both the models.
-Visualizing ROC Curve for the models to see the model's performance.
+## **Dataset**
+- The dataset used is **"bank-full.csv"**, obtained from the **UCI Machine Learning Repository**.
+- **Dataset Link**: [Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank%2Bmarketing)
+
+## **Project Overview**
+The following steps were performed in this project:
+
+1. **Corpus Preparation**:
+   - **Data Cleaning**: Removing duplicates, handling missing values, removing irrelevant features, and addressing outliers.
+   - **Data Transformation**: Encoding categorical variables, scaling numerical features, and balancing the dataset using SMOTE.
+
+2. **Training Models**:
+   - **Random Forest**: Trained with default hyperparameters and evaluated.
+   - **Neural Network**: Trained with three hidden layers (128, 64, 32 neurons) and evaluated.
+
+3. **Model Comparison**:
+   - The models were compared based on metrics such as accuracy, precision, recall, and F1-score.
+   - Results were summarized in a comparison table.
+
+4. **ROC Curve Visualization**:
+   - ROC curves were plotted for both models to visualize their performance across various thresholds.
+   - The Area Under the Curve (AUC) was calculated to quantify model performance.
